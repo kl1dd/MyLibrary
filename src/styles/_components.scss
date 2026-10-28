@@ -1,0 +1,9 @@
+.mylibrary-shell { min-height: 100vh; }
+.mylibrary-sidebar { width: 240px; background: #172554; color: white; }
+.mylibrary-main { min-width: 0; }
+.avatar { width: 2.25rem; height: 2.25rem; display: inline-grid; place-items: center; border-radius: 50%; background: #dbeafe; color: #1e3a8a; font-weight: 700; }
+.task-title { overflow-wrap: anywhere; }
+.table-task { min-width: 720px; }
+.focus-panel:focus-within { outline: 3px solid rgba(37, 99, 235, .25); }
+.modal.d-block { background: rgba(15, 23, 42, .5); }
+@media (max-width: 767.98px) { .mylibrary-sidebar { width: 100%; } .mylibrary-layout { flex-direction: column; } }

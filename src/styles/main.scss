@@ -1,0 +1,9 @@
+@use "./variables" as *;
+@use "bootstrap/scss/bootstrap" with (
+  $primary: $course-primary,
+  $body-bg: $course-body-bg,
+  $border-radius: $course-radius
+);
+@use "./components";
+
+body { min-width: 320px; }
